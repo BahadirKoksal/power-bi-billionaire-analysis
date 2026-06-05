@@ -26,21 +26,28 @@ This project demonstrates core Power BI skills including data importing, cleanin
 ### 3. Data Enrichment
 - Created a conditional column **Yaş kategorisi** (Age Category):
   - Age ≥ 80 → `Yaşlı` (Elderly)
-  - 50 ≤ Age < 80 → `Orta yaş` (Middle-aged)
+  - 50 ≤ Age < 80 → `Orta yas` (Middle-aged)
   - Age < 50 → `Genç` (Young)
 
 ### 4. Data Merging
 - Imported `Business_sector.xlsx` and cleaned it (promoted headers, removed duplicates)
-- Merged the two datasets using `Source(s) of wealth` ↔ `Companies` columns (Left Outer Join)
+- Merged the two datasets using `Source(s) of wealth ↔ Companies` columns (Left Outer Join)
 - Created a duplicate query renamed **Milyarderler - Sektör** with the expanded `Business sector` column
 
 ### 5. Visualization
 - Built a **bar chart** showing total billions per business sector
-- X-axis: Business Sector | Y-axis: Sum of Milyarlar ($)
+  - X-axis: Business Sector
+  - Y-axis: Sum of Milyarlar ($)
 
-## 📈 Key Insight
+## 📈 Key Insights
 
-The **Tech sector** dominates with the highest total net worth among all sectors, followed by Chemical, Other, Luxury, and Textile.
+- The **Tech sector** dominates with the highest total net worth among all sectors
+- Followed by **Chemical**, **Other**, **Luxury**, and **Textile**
+
+## 🖼️ Preview
+
+### Bar Chart – Total Net Worth by Business Sector
+![Bar Chart](bar-chart.png)
 
 ## 🧰 Tools Used
 
